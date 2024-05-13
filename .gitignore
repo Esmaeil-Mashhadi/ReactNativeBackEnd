@@ -1,0 +1,42 @@
+# Dependency directory
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Environment variable files
+.env*  # Matches all files starting with ".env" and any extension
+
+# Logs
+*.log
+
+# Runtime data
+pids*.pid  # Matches files starting with "pids" and ending with ".pid"
+*.seed     # Matches files named "*.seed"
+
+# Optional cache directories
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_*  # Matches all directories starting with ".rts2_cache_"
+
+# REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn integrity file
+.yarn-integrity
+
+# Testing coverage reports (choose one or more based on your tools)
+coverage/*
+.nyc_output/
+
+node_modules/
+
+# Serverless directories
+.serverless/
+
+# Database connection strings or secrets (consider a separate secrets management solution)
+# db_connection_string.txt  # Example
